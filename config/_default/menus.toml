@@ -5,24 +5,24 @@
 
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Research"
+  url = "/research/"
+  weight = 10
+
+[[main]]
+  name = "Code"
+  url = "/code/"
   weight = 20
 
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
+#[[main]]
+#  name = "Publications"
+#  url = "#featured"
+#  weight = 40
 
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
-
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
+#[[main]]
+#  name = "Courses"
+#  url = "courses/"
+#  weight = 50
 
 [[main]]
   name = "Contact"
