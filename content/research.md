@@ -14,6 +14,7 @@ permalink: /research/
 ## Works in Progress
 
 **The General Equilibrium Incidence of the EITC**
-  Manuscript: [draft_clw_GenEqEITC_Oct8_2019.pdf](/files/papers/draft_clw_GenEqEITC_Oct8_2019.pdf)  
+
+Manuscript: [draft_clw_GenEqEITC_Oct8_2019.pdf](/files/papers/draft_clw_GenEqEITC_Oct8_2019.pdf)  
 
 **The GE Effects of State EITC Programs**

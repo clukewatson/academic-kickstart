@@ -19,6 +19,9 @@ markup: mmark
 ## Stata
 
 ## Julia
+- [Simulating Multivariate Normal Probabilities](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt1.ipynb)
+- [Probit MLE; Probit Simulated MLE](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt2.ipynb)
+
 
 ## Gauss
 
