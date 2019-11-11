@@ -73,4 +73,3 @@ user_groups:
 I am a doctoral candidate in the Department of Economics at Michigan State University. I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia. I am from Portsmouth, Virginia.
 
 My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization. I am especially interested in issues related to adverse selection and externalities. Since Fall 2018, I have Special Sworn Status for Census RDC research projects.
-Test.
