@@ -15,6 +15,6 @@ permalink: /research/
 
 **The General Equilibrium Incidence of the EITC**
 
-Manuscript: [draft_clw_GenEqEITC.pdf](/files/papers/draft_clw_GenEqEITC.pdf)  
+Manuscript: [clw_draft_GenEqEITC.pdf](/files/papers/clw_draft_GenEqEITC.pdf)  
 
 **The Local Effects of State EITC Expansions**
