@@ -14,8 +14,8 @@ markup: mmark
 *Blurb:* this two-step procedure uses the residuals from a linear projection of endogenous variable on the instruments to weights the GMM moments $$ E[Z^{\prime} u] $$, allowing for clustering.
   Main file: [W_gmm_cluster.m](/files/code/matlab/W_gmm_cluster.m) 
   
-** BLP IGMM in Matlab **
-[BLP_IGMM](/code/BLP_IGMM)
+**BLP IGMM in Matlab**
+[BLP_IGMM](/code/BLP_IGMM.md)
   
 
 ## R
