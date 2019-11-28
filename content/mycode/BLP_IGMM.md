@@ -2,7 +2,7 @@
 title: BLP Code
 permalink: /BLP_IGMM/
 markup: mmark
-data: false
+date: false
 ---
 
 ## BLP IGMM in Matlab

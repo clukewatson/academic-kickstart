@@ -17,9 +17,6 @@ markup: mmark
 **BLP (1995) IGMM in Matlab**  
 [BLP_IGMM] ( {{< relref "mycode/BLP_IGMM" >}})
 
-ok
-  
-
 ## R
 
 ## Stata
