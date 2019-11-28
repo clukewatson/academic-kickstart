@@ -1,6 +1,6 @@
 ---
 title: BLP Code
-permalink: /code/BLP_IGMM
+permalink: /mycode/BLP_IGMM
 markup: mmark
 ---
 
@@ -9,7 +9,7 @@ markup: mmark
 The following files implement BLP using an Iterated Efficient IV GMM routine for a single market. 
 The main file is run, which then calls the other files.
 
-** Files **
+**Files**
 - Main : [main_rclogit_igmm.m](/files/code/matlab/blp_igmm/main_rclogit_igmm.m) 
 - GMM_Obj : [gmmobj_rclogit.m](/files/code/matlab/blp_igmm/gmmobj_rclogit.m) 
 - GMM_Gradient : [gradient_rclogit.m](/files/code/matlab/blp_igmm/gradient_rclogit.m) 
@@ -22,4 +22,13 @@ The main file is run, which then calls the other files.
 - Derivative_sigma : [DSDX_VI.m](/files/code/matlab/blp_igmm/DSDX_VI.m) 
 - Derivative_mu : [DSDX_MU.m](/files/code/matlab/blp_igmm/DSDX_MU.m) 
 
-  
+  
+
+
+
+
+
+
+
+
+
