@@ -15,7 +15,8 @@ markup: mmark
   Main file: [W_gmm_cluster.m](/files/code/matlab/W_gmm_cluster.m) 
   
 **BLP (1995) IGMM in Matlab**  
-[BLP_IGMM](/mycode/BLP_IGMM)
+[BLP_IGMM_1] ( {{< relref "mycode/BLP_IGMM" >}})
+[BLP_IGMM_2] ( {{< ref "mycode/BLP_IGMM" >}})
 
 ok
   
