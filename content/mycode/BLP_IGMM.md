@@ -1,6 +1,6 @@
 ---
 title: BLP Code
-permalink: /code/BLP_IGMM
+permalink: /BLP_IGMM/
 markup: mmark
 ---
 
