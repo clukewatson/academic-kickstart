@@ -29,7 +29,7 @@ education:
   courses:
   - course: PhD in Economics
     institution: Michigan State University
-    year: 2015-tba
+    year: 2015-2021 (expected)
   - course: MA in Economics
     institution: Old Dominion University
     year: 2015
