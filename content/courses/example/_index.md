@@ -17,7 +17,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   EC410:
-    name: Overview
+    name: Main
     weight: 1
 ---
 
