@@ -1,13 +1,13 @@
 ---
 # Course title, summary, and position.
-linktitle: An Example Course
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: EC 410 - Development Economics
+summary: Understanding causes and consequences of global poverty and evaluating anti-poverty policy 
 weight: 1
 
 # Page metadata.
-title: Overview
-date: "2018-09-09T00:00:00Z"
-lastmod: "2018-09-09T00:00:00Z"
+title: Course Page
+date: "2020-06-08T00:00:00Z"
+lastmod: "2020-06-08T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  example:
+  EC410:
     name: Overview
     weight: 1
 ---
