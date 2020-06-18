@@ -20,4 +20,4 @@ weight: 2
 
 ## Life Expectancy at Birth
 ![Life Expectancy 1960 vs 2018](/img/life_1960_to_2018.png)
-![Change in Life Expectancy since 1960](/img/ch_ife_1960_to_2018.png)
+![Change in Life Expectancy since 1960](/img/ch_life_1960_to_2018.png)
