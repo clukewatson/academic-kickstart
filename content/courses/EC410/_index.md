@@ -27,9 +27,9 @@ menu:
 * Books
   - Development Economics : Todaro & Smith
   - Poor Economics : Banerjee & Duflo
-* Class Time and Location
-  - TR: 3:00 - 4:15
-  - Berkey Hall 110
+* Class Time
+  - Recorded Lectures Online Every Monday
+  - Interactive Sessions: TR: 3:00 - 4:15
 
 ## Tentative Course Outline:
 1. Measuring Economic Development and Policy Evaluation
