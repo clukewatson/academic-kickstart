@@ -14,6 +14,10 @@ menu:
 weight: 2
 ---
 
-## What is the distribution economic development around the world?
+### What is the distribution economic development around the world?
 
-to be completed
+## Income 
+
+## Life Expectancy at Birth
+![Life Expectancy 1960 vs 2018](/img/life_1960_to_2018.png)
+![Change in Life Expectancy since 1960](/img/ch_ife_1960_to_2018.png)

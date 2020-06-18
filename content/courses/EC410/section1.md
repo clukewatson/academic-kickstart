@@ -46,11 +46,12 @@ Some approaches that have been suggested are:
  7. Access to Healthcare
  8. Literacy or Average Grade Level
  9. Corruption Index
+ 
+ 1. this starts a list *with* numbers
++  this will show as number "2"
 
 Each variable captures and misses some aspect of development.
 Typically, we associate developing countries as being `poor' but, if we focus solely on income, then we will miss out of the other aspects such as individuals pursuing their passions if they live in an oppressive regime or if they lack the ability to keep their children healthy and educated.
 By and large, there is an assumption that if we can increase people's income then the other aspects of development will follow. 
 However, when we study the lives of impoverished people we will see that just giving people more money likely would fail to bring long term change.
 
-## What is the distribution of the development indicators?
-![title](/img/life_1960_to_2018.png)
