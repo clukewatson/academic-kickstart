@@ -32,17 +32,17 @@ menu:
   - Berkey Hall 110
 
 ## Tentative Course Outline:
-A. Measuring Economic Development and Policy Evaluation
+1. Measuring Economic Development and Policy Evaluation
   1. How is economic development measured?
   2. What is the distribution economic development around the world?
   3. What are current economic development policies taking place?
   4. How do we evaluate development programs?
-B. Causes and Consequences of Global Poverty
+2. Causes and Consequences of Global Poverty
   1. What causes economic growth in aggregate?
   2. Why are many people poor?
   3. What keeps people from growing richer?
   4. What can make lives better? 
-C. Institutions, Migration, Environment
+3. Institutions, Migration, Environment
   1. Why are institutions important for economic development?
   2. How does corruption and conflict affect economic development?
   3. How does migration  affect economic development?
