@@ -37,15 +37,15 @@ There is no one answer to this question.
 Countries are not at the two extremes of either subsistence or perfectly specialized.
 
 Some approaches that have been suggested are:
-1. Average or Median Income or GNI per capita
-2. Percent of Population Living Under \$1 a day
-3. Life Expectancy 
-4. Human Development Index 
-5. Percent Agriculture in Economy
-6. Family Size 
-7. Access to Healthcare
-8. Literacy or Average Grade Level
-9. Corruption Index
+ 1. Average or Median Income or GNI per capita
+ 2. Percent of Population Living Under $1 a day
+ 3. Life Expectancy 
+ 4. Human Development Index 
+ 5. Percent Agriculture in Economy
+ 6. Family Size 
+ 7. Access to Healthcare
+ 8. Literacy or Average Grade Level
+ 9. Corruption Index
 
 Each variable captures and misses some aspect of development.
 Typically, we associate developing countries as being `poor' but, if we focus solely on income, then we will miss out of the other aspects such as individuals pursuing their passions if they live in an oppressive regime or if they lack the ability to keep their children healthy and educated.
@@ -53,4 +53,4 @@ By and large, there is an assumption that if we can increase people's income the
 However, when we study the lives of impoverished people we will see that just giving people more money likely would fail to bring long term change.
 
 ## What is the distribution of the development indicators?
-![title](/Users/lukewatson/Documents/GitHub/clukewatson/static/img/life_1960_to_2018.png)
+![title](/static/img/life_1960_to_2018.png)
