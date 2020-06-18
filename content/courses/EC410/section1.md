@@ -53,4 +53,4 @@ By and large, there is an assumption that if we can increase people's income the
 However, when we study the lives of impoverished people we will see that just giving people more money likely would fail to bring long term change.
 
 ## What is the distribution of the development indicators?
-![title](~/Users/lukewatson/Documents/GitHub/clukewatson/static/img/life_1960_to_2018.png)
+![title](/Users/lukewatson/Documents/GitHub/clukewatson/static/img/life_1960_to_2018.png)
