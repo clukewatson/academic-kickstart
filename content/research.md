@@ -13,6 +13,7 @@ permalink: /research/
 - (joint with Oren Ziv)  
 - Manuscript: [WZ_ITRTH_FULL.pdf](/files/papers/WZ_ITRTH_FULL.pdf)  
 
+
 ## Works in Progress
 
 **The Local Effects of State EITC Expansions**  
