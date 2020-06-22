@@ -6,7 +6,7 @@ permalink: /research/
 ## Working papers
 
 **The General Equilibrium Incidence of the EITC** (updated 2020)  
-- Manuscript: [clw_GenEqEITC.pdf](/files/papers/clw_GenEqEITC.pdf)  
+- Manuscript: [clw_GenEqEITC.pdf](/files/papers/clw_GenEqEITC_june2020.pdf)  
 - Earlier draft presented at 2019 NTA: Labor Supply Session  
   
 **Is the Rent Too High? Land Ownership and Monopoly Power**  
