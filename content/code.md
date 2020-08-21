@@ -6,7 +6,7 @@ markup: mmark
 
 ## Matlab
 **GMM in Matlab**
-*Blurb:* this file explains how to perform GMM in Matlab and calculate White SEs.
+*Blurb:* this file explains how to perform General Method of Moments in Matlab and calculate White SEs.
   Main file: [gmm.m](/files/code/matlab/gmm.m) 
   GMM objective: [gmm_obj.m](/files/code/matlab/gmm_obj.m) 
 
@@ -17,14 +17,7 @@ markup: mmark
 **BLP (1995) IGMM in Matlab**  
 [BLP_IGMM] ( {{< relref "mycode/BLP_IGMM" >}})
 
-## R
-
-## Stata
-
 ## Julia
 - [Simulating Multivariate Normal Probabilities](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt1.ipynb)
 - [Probit MLE; Probit Simulated MLE](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt2.ipynb)
-
-
-## Gauss
 
