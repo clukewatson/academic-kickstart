@@ -62,7 +62,7 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
@@ -70,11 +70,9 @@ user_groups:
 - Visitors
 ---
 
-I am a doctoral candidate in the Department of Economics at Michigan State University. I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia. I am from Portsmouth, Virginia. 
+I am a doctoral candidate in the Department of Economics at Michigan State University. I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia. I am from Portsmouth, Virginia.
 
+I am available for interviews for the 2020-2021 job market.  
 [Click here for the most recent copy of my CV.](files/clw_cv.pdf)
 
 My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization. I am especially interested in issues related to adverse selection and externalities. Since Fall 2018, I have Special Sworn Status for Census RDC research projects.
-
-
-
