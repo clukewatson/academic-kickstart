@@ -19,8 +19,8 @@ markup: mmark
 
 ## R + Rmarkdown
 *Blurb:* this provides a template for using Rmarkdown; assumes necessary packages installed.
-  - Rmd file: [gmm.m](/files/code/r/markdown/howdy.Rmd)
-  - PDF output: [gmm_obj.m](/files/code/r/markdown/howdy.pdf)
+  - Rmd file: [howdy.Rmd](/files/code/r/markdown/howdy.Rmd)
+  - PDF output: [howdy.pdf](/files/code/r/markdown/howdy.pdf)
 
 
 ## Julia
