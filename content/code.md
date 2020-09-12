@@ -22,6 +22,10 @@ markup: mmark
   - Rmd file: [howdy.Rmd](/files/code/r/markdown/howdy.Rmd)
   - PDF output: [howdy.pdf](/files/code/r/markdown/howdy.pdf)
 
+*Blurb:* this creates plots for Year to Date JOE ads for US Full Time Academic jobs by REPEC Top 10 and Top 25 US Econ dept institutions
+    - E.g., MIT Mgmt is "Top 10" because MIT Econ is in the REPEC Top 10 US Econ list
+    - Rmd file: [joe_usft_academic.R](/files/code/r/joe_usft_academic.R)
+
 
 ## Julia
 - [Simulating Multivariate Normal Probabilities](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt1.ipynb)
