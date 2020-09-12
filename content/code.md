@@ -23,8 +23,8 @@ markup: mmark
   - PDF output: [howdy.pdf](/files/code/r/markdown/howdy.pdf)
 
 *Blurb:* this creates plots for Year to Date JOE ads for US Full Time Academic jobs by REPEC Top 10 and Top 25 US Econ dept institutions
-    - E.g., MIT Mgmt is "Top 10" because MIT Econ is in the REPEC Top 10 US Econ list
-    - Rmd file: [joe_usft_academic.R](/files/code/r/joe_usft_academic.R)
+  - E.g., MIT Mgmt is "Top 10" because MIT Econ is Top 10
+  - R file: [joe_usft_academic.R](/files/code/r/joe_usft_academic.R)
 
 
 ## Julia
