@@ -25,6 +25,7 @@ markup: mmark
 *Blurb:* this creates plots for Year to Date JOE ads for US Full Time Academic jobs by REPEC Top 10 and Top 25 US Econ dept institutions
   - E.g., MIT Mgmt is "Top 10" because MIT Econ is Top 10
   - R file: [joe_usft_academic.R](/files/code/r/joe_usft_academic.R)
+  - github: [repo](https://github.com/clukewatson/joe_usft_academic)
 
 
 ## Julia
