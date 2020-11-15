@@ -1,10 +1,10 @@
 ---
-title: the General Equilibrium Incidence of the Earned Income Tax Credit
-event:
-event_url: 
+title: the General Equilibrium Incidence of the EITC
+#event:
+#event_url:
 
-location:
-address:
+#location:
+#address:
 
 summary: Job Market Paper
 abstract: "The Earned Income Tax Credit is a $67 billion tax expenditure that subsidizes 20% of all workers.
@@ -22,16 +22,16 @@ In all cases, I find spillovers are economically meaningful."
 #all_day: false
 
 # Schedule page publish date (NOT talk date).
-#publishDate: "2017-01-01T00:00:00Z"
+#publishDate: "2020"
 
-authors: []
-tags: []
+#authors: []
+#tags: []
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Watson (2020)'
   focal_point: Right
 
 links:
@@ -62,7 +62,7 @@ slides: example
 # Enable math on this page?
 math: true
 ---
-
+<!--
 {{% alert note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /alert %}}
@@ -73,4 +73,4 @@ Slides can be added in a few ways:
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. -->
