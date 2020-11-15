@@ -36,8 +36,9 @@ subtitle = ""
  css_class = ""
 +++
 
-| John D. 'Jay' Wilson (Chair) |  Leslie Papke | Oren Ziv |
+|  |   | |
 | :---: | :---: | :---: |
+| John D. 'Jay' Wilson (Chair) |  Leslie Papke | Oren Ziv |
 | Professor | Professor | Assistant Professor |
 | Michigan State University | Michigan State University | Michigan State University |
 | wilsonjd@msu.edu | papke@msu.edu | orenziv@msu.edu |
