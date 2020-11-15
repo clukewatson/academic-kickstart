@@ -37,7 +37,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["20px", "0", "20px", "20px"]
 
 [advanced]
  # Custom CSS.
@@ -47,9 +47,8 @@ subtitle = ""
  css_class = ""
 +++
 
-
-John 'Jay' Wilson (Chair) | Leslie Papke | Oren Ziv
-:-:|:-:|:-:
-Professor | Professor | Assistant Professor
-Michigan State University | Michigan State University | Michigan State University
-wilsonjd@msu.edu | papke@msu.edu | orenziv@msu.edu
+|John 'Jay' Wilson (Chair) | Leslie Papke | Oren Ziv|
+|:-:|:-:|:-:|
+|Professor | Professor | Assistant Professor|
+|Michigan State University | Michigan State University | Michigan State University|
+|wilsonjd@msu.edu | papke@msu.edu | orenziv@msu.edu|
