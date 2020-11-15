@@ -1,15 +1,15 @@
 ---
 title: the General Equilibrium Incidence of the Earned Income Tax Credit
-#event: Academic Theme Conference
+event: Academic Theme Conference
 event_url: [clw_GenEqEITC.pdf](/files/papers/clw_GenEqEITC.pdf)
 
-<!-- location: Source Themes HQ
+location: Source Themes HQ
 address:
   street: 450 Serra Mall
   city: Stanford
   region: CA
   postcode: '94305'
-  country: United States -->
+  country: United States 
 
 #summary: An example talk using Academic's Markdown slides feature.
 abstract: "The Earned Income Tax Credit is a $67 billion tax expenditure that subsidizes 20% of all workers.
