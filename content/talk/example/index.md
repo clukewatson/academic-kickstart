@@ -3,7 +3,7 @@ title: the General Equilibrium Incidence of the Earned Income Tax Credit
 event: Academic Theme Conference
 event_url: https://example.org
 
-location: Source Themes HQ
+location:
 address:
   street: 450 Serra Mall
   city: Stanford
@@ -12,7 +12,13 @@ address:
   country: United States
 
 summary: Job Market Paper
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract: "The Earned Income Tax Credit is a $67 billion tax expenditure that subsidizes 20% of all workers.
+Yet all prior analysis uses partial equilibrium assumptions on gross wages.
+I derive the general equilibrium incidence of wage subsidies, estimate labor market elasticities, and quantify the importance of EITC spillovers in three ways.
+I calculate the GE incidence of the 1993 and 2009 EITC expansions using new elasticity estimates.
+I contrast the incidence of counterfactual EITC and Welfare expansions.
+I quantify the effect of equalizing the EITC for workers with and without children.
+In all cases, I find spillovers are economically meaningful."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -21,7 +27,7 @@ abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 #all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+#publishDate: "2017-01-01T00:00:00Z"
 
 authors: []
 tags: []
@@ -55,8 +61,8 @@ slides: example
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
-- internal-project
+#projects:
+#- internal-project
 
 # Enable math on this page?
 math: true
