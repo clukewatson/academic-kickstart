@@ -37,6 +37,7 @@ education:
     institution: Old Dominion University
     year: 2013
 
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -70,9 +71,14 @@ user_groups:
 - Visitors
 ---
 
-I am a doctoral candidate in the Department of Economics at Michigan State University. I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia. I am from Portsmouth, Virginia.
-
 I am available for interviews for the 2020-2021 job market.  
 [Click here for the most recent copy of my CV.](files/clw_cv.pdf)
 
-My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization. I am especially interested in issues related to adverse selection and externalities. Since Fall 2018, I have Special Sworn Status for Census RDC research projects.
+I am a doctoral candidate in the Department of Economics at Michigan State University. I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia. My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization. Since Fall 2018, I have Special Sworn Status for Census RDC research projects.
+
+# References
+John 'Jay' Wilson (Chair) | Leslie Papke | Oren Ziv
+|:-:|:-:|:-:|
+ Professor | Professor | Assistant Professor
+ Michigan State University | Michigan State University | Michigan State University
+ wilsonjd@msu.edu | papke@msu.edu | orenziv@msu.edu
