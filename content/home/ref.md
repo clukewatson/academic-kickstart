@@ -13,7 +13,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -36,8 +36,8 @@ subtitle = ""
  css_class = ""
 +++
 
-|John D. 'Jay' Wilson (Chair) | Leslie Papke | Oren Ziv|
-|:-:|:-:|:-:|
-|Professor | Professor | Assistant Professor|
-|Michigan State University | Michigan State University | Michigan State University|
-|wilsonjd@msu.edu | papke@msu.edu | orenziv@msu.edu|
+| John D. 'Jay' Wilson (Chair) | Leslie Papke | Oren Ziv |
+|:---:|:---:|:---:|
+| Professor | Professor | Assistant Professor |
+| Michigan State University | Michigan State University | Michigan State University |
+| wilsonjd@msu.edu | papke@msu.edu | orenziv@msu.edu |
