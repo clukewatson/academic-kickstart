@@ -74,4 +74,9 @@ user_groups:
 I am available for interviews for the 2020-2021 job market.  
 [Click here for the most recent copy of my CV.](files/clw_cv.pdf)
 
-I am a doctoral candidate in the Department of Economics at Michigan State University. I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia. My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization. Since Fall 2018, I have Special Sworn Status for Census RDC research projects.
+[Click here for my job market paper, the General Equilibrium Incidence of the Earned Income Tax Credit.](/files/papers/clw_GenEqEITC.pdf)
+
+I am a doctoral candidate in the Department of Economics at Michigan State University.
+I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia.
+My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization. 
+Since Fall 2018, I have Special Sworn Status for Census RDC research projects.

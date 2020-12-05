@@ -19,7 +19,11 @@ permalink: /research/
 ## Works in Progress
 
 **The Local Effects of State EITC Expansions**  
-- In progress
+- Draft available upon request
+- Presented at 2020 NTA: Changing Behavior with Localized Tax Policy for Low-Income People
 
 **Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
+- Draft available upon request
+
+**What Does An EITC DID Estimate?**
 - In progress
