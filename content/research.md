@@ -25,5 +25,5 @@ permalink: /research/
 **Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
 - Draft available upon request
 
-**What Does An EITC DID Estimate?**
+**What Does An EITC DID Estimate?**  
 - In progress
