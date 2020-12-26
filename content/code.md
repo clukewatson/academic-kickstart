@@ -17,17 +17,18 @@ markup: mmark
 **BLP (1995) IGMM in Matlab**  
 [BLP_IGMM] ( {{< relref "mycode/BLP_IGMM" >}})
 
-## R + Rmarkdown
+## R + Rmarkdown  
+**Make Markdown file**  
 *Blurb:* this provides a template for using Rmarkdown; assumes necessary packages installed.
   - Rmd file: [howdy.Rmd](/files/code/r/markdown/howdy.Rmd)
   - PDF output: [howdy.pdf](/files/code/r/markdown/howdy.pdf)
 
+**R JOE Graph**  
 *Blurb:* this creates plots for Year to Date JOE ads for US Full Time Academic jobs by REPEC Top 10 and Top 25 US Econ dept institutions
   - E.g., MIT Mgmt is "Top 10" because MIT Econ is Top 10
   - R file: [joe_usft_academic.R](/files/code/r/joe_usft_academic.R)
   - github: [repo](https://github.com/clukewatson/joe_usft_academic)
 
-
-## Julia
+## Julia  
 - [Simulating Multivariate Normal Probabilities](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt1.ipynb)
 - [Probit MLE; Probit Simulated MLE](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt2.ipynb)

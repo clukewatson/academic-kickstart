@@ -27,3 +27,8 @@ permalink: /research/
 
 **What Does An EITC DID Estimate?**  
 - In progress
+
+## Research Notes
+
+**EITC Facts**  
+[EITC Facts] ( {{< relref "eitcfacts/eitc_facts" >}})
