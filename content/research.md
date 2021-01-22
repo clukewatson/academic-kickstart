@@ -11,7 +11,8 @@ permalink: /research/
 
 **Is the Rent Too High? Land Ownership and Monopoly Power**  
 - (joint with Oren Ziv)  
-- Manuscript: [WZ_ITRTH_FULL.pdf](/files/papers/WZ_ITRTH_FULL.pdf)  
+- Updated Jan 2021!  
+- Manuscript: [monopoly_watsonziv_jan2021.pdf](/files/papers/monopoly_watsonziv_jan2021.pdf)  
 
 **Comment: Estimating Both Supply and Demand Elasticities Using Variation in a Single Tax Rate**  
 - Manuscript: [clw_comment_ZGH2018_oct2020.pdf](/files/papers/clw_comment_ZGH2018_oct2020.pdf)  

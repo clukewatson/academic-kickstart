@@ -7,7 +7,7 @@ date: 2020-12-25
 
 # EITC Facts  
 **Blurb**
-Here are some facts about the EITC that I find are not frequently documented.
+Here are some facts about the EITC that I find are not frequently documented (except in legal discussions of the EITC).
 
 ## Investment Limits  
 *  Investment income limits were introduced in via Public Law 104-7
@@ -15,8 +15,6 @@ Here are some facts about the EITC that I find are not frequently documented.
 *  Sources
   -  Falk, Gene. The Earned Income Tax Credit (EITC): An Overview, report, October 22, 2014.
   -  IRS guidance: https://www.irs.gov/pub/irs-prior/p596--XXXX.pdf for XXXX 1995-2018.
-
-
 
 Tax Year |  Limit
 --------|------
@@ -60,3 +58,17 @@ Tax Year |  Limit
 *  Weber (2016) discusses and uses this for identifying variation
   -  Caroline Weber, 2016. "Does the Earned Income Tax Credit Reduce Saving by Low-Income Households?," National Tax Journal, vol. 69(1), pages 41-76, March.
   -  She finds that the EITC disincentivizes saving because of this feature.
+
+## EITC and SNAP
+
+*  The EITC and SNAP are *mostly* independent of each other.
+*  The EITC is part of the federal (and some state) tax system whereas SNAP must be applied for at state level.
+*  However some limits do exist:
+  -  If a household  member has SNAP of TANF reporting violations, this may make some EITC count towards assets
+  -  If the claimant is over 60 or disabled but not getting SSI, then there is an income limit which may make EITC count towards assets
+
+## EITC and Unemployment Benefits
+
+*  Unemployment benefits count as unearned income.
+*  Unemployment benefits do not increase EITC but would count in AGI, which can decrease EITC.
+*  The earned income vs AGI rules would then apply.
