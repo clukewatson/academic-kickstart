@@ -20,7 +20,7 @@ permalink: /research/
 ## Works in Progress
 
 **The Local Effects of State EITC Expansions**  
-- Draft available upon request  
+- Manuscript: [clw_stEITC_draft.pdf](/files/papers/clw_stEITC_draft.pdf)   
 - Presented at 2020 NTA: Changing Behavior with Localized Tax Policy for Low-Income People
 
 **Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
