@@ -21,5 +21,12 @@ menu:
     weight: 1
 ---
 
+## About
+*  In the summer of 2015 I taught an introductory microeconomics class  
+*  I plan on revising my syllabus before teaching this material again
+*  In particular  
+    - Focus more on simple data projects
+    - Use a more intuitive approach
+
 ## Syllabus
 * [watson_econ202_syllabus_s15_v01.pdf](/files/class/ec202/watson_econ202_syllabus_s15_v01.pdf)   
