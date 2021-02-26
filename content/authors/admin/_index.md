@@ -76,4 +76,6 @@ user_groups:
 I am a doctoral candidate in the Department of Economics at Michigan State University.
 I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia.
 My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization.
-Since Fall 2018, I have Special Sworn Status for Census RDC research projects.
+Since Fall 2018, I have Special Sworn Status for Census RDC research projects.  
+
+I will join the Center for Financial Research at the FDIC in 2021.
