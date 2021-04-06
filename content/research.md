@@ -11,8 +11,8 @@ permalink: /research/
 
 **Is the Rent Too High? Land Ownership and Monopoly Power**  
 - (joint with Oren Ziv)  
-- Updated Jan 2021!  
-- Manuscript: [monopoly_watsonziv_jan2021.pdf](/files/papers/monopoly_watsonziv_jan2021.pdf)  
+- Updated March 2021!  
+- Manuscript: [monopoly_watsonziv.pdf](/files/papers/monopoly_watsonziv.pdf)  
 
 **Comment: Estimating Both Supply and Demand Elasticities Using Variation in a Single Tax Rate**  
 - Manuscript: [clw_comment_ZGH2018_oct2020.pdf](/files/papers/clw_comment_ZGH2018_oct2020.pdf)  
@@ -20,7 +20,8 @@ permalink: /research/
 ## Works in Progress
 
 **The Local Effects of State EITC Expansions**  
-- Manuscript: [clw_stEITC_draft.pdf](/files/papers/clw_stEITC_draft.pdf)   
+- Manuscript: [clw_stateborder_EITC.pdf](/files/papers/clw_stateborder_EITC.pdf)   
+- Updated March 2021!  
 - Presented at 2020 NTA: Changing Behavior with Localized Tax Policy for Low-Income People
 
 **Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
