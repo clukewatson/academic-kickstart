@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Economics Doctoral Candidate
+role: Financial Economist
 
 # Organizations/Affiliations
 organizations:
-- name: Michigan State University
+- name: Federal Deposit Insurance Corporation
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -29,7 +29,7 @@ education:
   courses:
   - course: PhD in Economics
     institution: Michigan State University
-    year: 2015-2021 (expected)
+    year: 2021
   - course: MA in Economics
     institution: Old Dominion University
     year: 2015
@@ -73,9 +73,9 @@ user_groups:
 
 [Click here for the most recent copy of my CV.](files/clw_cv.pdf)
 
-I am a doctoral candidate in the Department of Economics at Michigan State University.
-I received a BA and MA in Economics from Old Dominion University in Norfolk, Virginia.
+I am a Financial Economist at the Center for Financial Research at the FDIC.
 My primary fields of interest are Public Economics, Urban Economics, and Industrial Organization.
-Since Fall 2018, I have Special Sworn Status for Census RDC research projects.  
+I am interested in tax incidence, housing markets, and local economic performance.
 
-I will join the Center for Financial Research at the FDIC in 2021.
+I earned my PhD in Economics from Michigan State University and my BA and MA in Economics from Old Dominion University.
+Since Fall 2018, I have Special Sworn Status for Census RDC research projects.  
