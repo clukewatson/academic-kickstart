@@ -5,7 +5,8 @@ permalink: /research/
 
 ## Working papers
 
-**Job Market Paper: The General Equilibrium Incidence of the EITC**   
+**Job Market Paper: The General Equilibrium Incidence of the EITC**  
+- Updated Sept 2021!   
 - Manuscript: [clw_GenEqEITC.pdf](/files/papers/clw_GenEqEITC.pdf)   
 - Earlier draft presented at 2019 NTA: Labor Supply Session  
 
