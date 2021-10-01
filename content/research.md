@@ -6,17 +6,18 @@ permalink: /research/
 ## Working papers
 
 **Job Market Paper: The General Equilibrium Incidence of the EITC**  
-- Updated Sept 2021!   
+- Updated Sept 2021   
 - Manuscript: [clw_GenEqEITC.pdf](/files/papers/clw_GenEqEITC.pdf)   
 - Earlier draft presented at 2019 NTA: Labor Supply Session  
 
 **Is the Rent Too High? Land Ownership and Monopoly Power**  
 - (joint with Oren Ziv)  
-- Updated March 2021!  
+- Updated March 2021  
 - Manuscript: [monopoly_watsonziv.pdf](/files/papers/monopoly_watsonziv.pdf)  
 
-**Comment: Estimating Both Supply and Demand Elasticities Using Variation in a Single Tax Rate**  
-- Manuscript: [clw_comment_ZGH2018_oct2020.pdf](/files/papers/clw_comment_ZGH2018_oct2020.pdf)  
+**Estimating Both Supply and Demand Elasticities Using Variation in a Single Tax Rate with General Equilibrium Spillovers**  
+- Updated October 2021  
+- Manuscript: [clw_taxiv.pdf](/files/papers/clw_taxiv.pdf)  
 
 ## Works in Progress
 
@@ -28,8 +29,11 @@ permalink: /research/
 **Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
 - Draft available upon request
 
+
+## Works in Stasis
+
 **What Does An EITC DID Estimate?**  
-- In progress
+- Stalled due to inattention
 
 ## Research Notes
 

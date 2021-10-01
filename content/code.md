@@ -26,9 +26,10 @@ markup: mmark
 **R JOE Graph**  
 *Blurb:* this creates plots for Year to Date JOE ads for US Full Time Academic jobs by REPEC Top 10 and Top 25 US Econ dept institutions
   - E.g., MIT Mgmt is "Top 10" because MIT Econ is Top 10
+  - Updated for 2021-2022 market
   - R file: [joe_usft_academic.R](/files/code/r/joe_usft_academic.R)
-  - github: [repo](https://github.com/clukewatson/joe_usft_academic)
 
 ## Julia  
+- These are woefully out of date... Julia has changed a lot since 2017  
 - [Simulating Multivariate Normal Probabilities](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt1.ipynb)
 - [Probit MLE; Probit Simulated MLE](https://nbviewer.jupyter.org/github/clukewatson/juptyernotebooks/blob/master/ec821b_hw3_pt2.ipynb)

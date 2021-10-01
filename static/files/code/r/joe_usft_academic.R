@@ -63,6 +63,28 @@ aea.20.txt <- aea.20.txt %>%
 aea.20.txt$date <-  as.Date(aea.20.txt$txt, format="%m/%d/%Y")
 aea.20.txt$txt <- NULL
 
+# 
+url.aea.21 <- "https://www.aeaweb.org/joe/listings?q=eNplULFqxDAM_RfNKeQyZutyUOhQKJ3KYXy2mqrVyUF2UkLIv59MEzp0k56e3nvSCs-UC8mQz0lv0K9A4nwoNCP00EID37j8JI0uo9fwaaBhGY2RBPp3OMGlgS9k6GViboBynupq13anh7YzclIaSDw__ZuENEnRxSkOv2orHCUY6Y9h_dvrYzUuvuCLppkkVC3PDJsFyH7G6D4SR9R8RAleXCJFW3A5qL9dGY-JYkApLgkvB8T7G5zdiuqu1ZPEsDLVU503dx7H3bOB0Q-73LbdAdAZbVxc"
+aea_21 <- read_html(url.aea.21)
+aea.21.txt <- data.frame(txt = read_lines(url.aea.21))
+aea.21.txt$school.name <- str_detect(aea.21.txt$txt, "group-header-title")
+aea.21.txt$post.date <- str_detect(aea.21.txt$txt, "listing-item-header-date-posted")
+aea.21.txt <- aea.21.txt[aea.21.txt$school.name==T | aea.21.txt$post.date==T,]
+aea.21.txt$txt <- qdapRegex::ex_between(aea.21.txt$txt, ">","<")
+aea.21.txt$txt <- str_replace(aea.21.txt$txt, "Date Posted: ","")
+aea.21.txt$school.name[aea.21.txt$school.name==T] <- aea.21.txt$txt[aea.21.txt$school.name==T]
+aea.21.txt$school.name[aea.21.txt$school.name=="FALSE"] <- NA
+aea.21.txt <- fill(aea.21.txt,school.name,.direction = "down")
+aea.21.txt <- aea.21.txt[aea.21.txt$post.date==T,c("school.name","txt")]
+aea.21.txt$school.name <- tolower(aea.21.txt$school.name)
+
+aea.21.txt <- aea.21.txt %>%
+  mutate(top.10 = str_detect(school.name,  paste(repec.t10, collapse="|")),
+         top.25 = str_detect(school.name,  paste(repec.t25, collapse="|")))
+aea.21.txt$date <-  as.Date(aea.21.txt$txt, format="%m/%d/%Y")
+aea.21.txt$txt <- NULL
+
+
 ####
 
 aea.19.tot <- aea.19.txt %>%
@@ -79,32 +101,54 @@ aea.20.tot <- aea.20.txt %>%
   group_by(top.10) %>% 
   mutate(total_ads = cumsum(n_ads), day_in_year = yday(date), year = as.factor(year(date)), month=month(date))
 
+aea.21.tot <- aea.21.txt %>%
+  group_by(date,top.10) %>% 
+  summarise(n_ads = n()) %>% 
+  ungroup() %>% 
+  group_by(top.10) %>% 
+  mutate(total_ads = cumsum(n_ads), day_in_year = yday(date), year = as.factor(year(date)), month=month(date))
+
+
 ## This is annoying but day_in_year does not match due to calenday; ugh.
-aea.20.top10.mrv <- aea.20.tot[aea.20.tot$day_in_year==max(aea.20.tot$day_in_year[aea.20.tot$top.10==T]) & aea.20.tot$top.10==T,
+aea.21.top10.mrv <- aea.21.tot[aea.21.tot$day_in_year==max(aea.21.tot$day_in_year[aea.21.tot$top.10==T]) & aea.21.tot$top.10==T,
                                c("total_ads","day_in_year")]
-aea.20.nottop10.mrv <- aea.20.tot[aea.20.tot$day_in_year==max(aea.20.tot$day_in_year[aea.20.tot$top.10==F]) & aea.20.tot$top.10==F,
+aea.21.nottop10.mrv <- aea.21.tot[aea.21.tot$day_in_year==max(aea.21.tot$day_in_year[aea.21.tot$top.10==F]) & aea.21.tot$top.10==F,
                                   c("total_ads","day_in_year")]
+
+
 aea.19.top10.mrv <- aea.19.tot[aea.19.tot$top.10==T,]
 aea.19.top10.mrv <- aea.19.top10.mrv[
-  which.min(abs(aea.19.top10.mrv$day_in_year - max(aea.20.tot$day_in_year[aea.20.tot$top.10==T]))), 
+  which.min(abs(aea.19.top10.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.10==T]))), 
   c("total_ads","day_in_year")]
 aea.19.nottop10.mrv <- aea.19.tot[aea.19.tot$top.10==F,]
 aea.19.nottop10.mrv <- aea.19.nottop10.mrv[
-  which.min(abs(aea.19.nottop10.mrv$day_in_year - max(aea.20.tot$day_in_year[aea.20.tot$top.10==F]))), 
+  which.min(abs(aea.19.nottop10.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.10==F]))), 
   c("total_ads","day_in_year")]
 
-down.top10 <- round((aea.20.top10.mrv$total_ads/aea.19.top10.mrv$total_ads)-1,2)
-down.nottop10 <- round((aea.20.nottop10.mrv$total_ads/aea.19.nottop10.mrv$total_ads)-1,2)
+aea.20.top10.mrv <- aea.20.tot[aea.20.tot$top.10==T,]
+aea.20.top10.mrv <- aea.20.top10.mrv[
+  which.min(abs(aea.20.top10.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.10==T]))), 
+  c("total_ads","day_in_year")]
+aea.20.nottop10.mrv <- aea.20.tot[aea.20.tot$top.10==F,]
+aea.20.nottop10.mrv <- aea.20.nottop10.mrv[
+  which.min(abs(aea.20.nottop10.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.10==F]))), 
+  c("total_ads","day_in_year")]
+
+
+# down.top10.20.19 <- round((aea.20.top10.mrv$total_ads/aea.19.top10.mrv$total_ads)-1,2)
+# down.top10.21.20 <- round((aea.21.top10.mrv$total_ads/aea.20.top10.mrv$total_ads)-1,2)
+# down.nottop10.20.19 <- round((aea.20.nottop10.mrv$total_ads/aea.19.nottop10.mrv$total_ads)-1,2)
+# down.nottop10.21.20 <- round((aea.21.nottop10.mrv$total_ads/aea.20.nottop10.mrv$total_ads)-1,2)
   
-all_aea <- bind_rows(aea.19.tot, aea.20.tot)
+all_aea <- bind_rows(aea.19.tot, aea.20.tot,aea.21.tot)
 
-aea.19.txt.3 %>% 
-  filter(month%in% c(8, 9, 10)) %>%
-  ggplot() + 
-  geom_line(aes(x=day_in_year, y=total_ads, group=top.10, colour=top.10))+
-  scale_colour_brewer(palette="Set1")+theme_bw()
+# aea.19.txt.3 %>% 
+#   filter(month%in% c(8, 9, 10)) %>%
+#   ggplot() + 
+#   geom_line(aes(x=day_in_year, y=total_ads, group=top.10, colour=top.10))+
+#   scale_colour_brewer(palette="Set1")+theme_bw()
 
-all_aea <- bind_rows(try19_df, try20_df)
+# all_aea <- bind_rows(try19_df, try20_df)
 all_aea$top_ten <- "top10"
 all_aea$top_ten[all_aea$top.10==F] <- "nottop10"
 all_aea$yr_top <- paste0(all_aea$year,"_",all_aea$top_ten)
@@ -115,22 +159,24 @@ cbp1 <- c("#999999", "#E69F00", "#56B4E9", "#009E73",
 
 
 gp <- all_aea %>% 
-  filter(month%in% c(8, 9, 10)) %>%
+  filter(month %in% c(8, 9)) %>%
   ggplot() +
   geom_line(aes(x=day_in_year, y=total_ads, colour=year, linetype=top_ten))+
   scale_colour_manual(values=cbp1) +
   scale_linetype_manual(values = c(rep("dashed", 1),rep("solid", 1))) +
   theme_bw() +
-  labs(title="US FT Academic Cumulative Number of JOE Ads, 2019 vs. 2020",
+  labs(title="US FT Academic Cumulative Number of JOE Ads, 2019-2021",
        subtitle=paste0(" by REPEC Top 10; Date: ",Sys.Date()),
        x="Day in Year (Aug 1 = 213)",
        y="Cumulative Ads Posted on JOE",
        caption = "Based on John Voorheis") +
   theme(legend.position = "bottom") +
-  annotate("text", x = 225, y = 375, label = paste0("Top10 down: ",down.top10*100,"pct YTD"), hjust = -0.1) +
-  annotate("text", x = 225, y = 325, label = paste0("NotTop10 down: ",down.nottop10*100,"pct YTD"),hjust = -0.1) +
-  annotate("text", x = 225, y = 275, label = paste0("Top10 Ads: ",aea.20.top10.mrv$total_ads), hjust = -0.2) +
-  annotate("text", x = 225, y = 225, label = paste0("NotTop10 Ads: ",aea.20.nottop10.mrv$total_ads), hjust = -0.18) 
+  annotate("text", x = 225, y = 375, label = paste0("Top10 Ads '19: ",aea.19.top10.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 350, label = paste0("Top10 Ads '20: ",aea.20.top10.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 325, label = paste0("Top10 Ads '21: ",aea.21.top10.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 300, label = paste0("Not.Top10 Ads '19: ",aea.19.nottop10.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 275, label = paste0("Not.Top10 Ads '20: ",aea.20.nottop10.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 250, label = paste0("Not.Top10 Ads '21: ",aea.21.nottop10.mrv$total_ads), hjust = -0.1)
 gp
 save_plot("joe_us_ft_repec10.pdf", gp)
 save_plot("joe_us_ft_repec10.png", gp)
@@ -151,24 +197,43 @@ aea.20.tot <- aea.20.txt %>%
   group_by(top.25) %>% 
   mutate(total_ads = cumsum(n_ads), day_in_year = yday(date), year = as.factor(year(date)), month=month(date))
 
+aea.21.tot <- aea.21.txt %>%
+  group_by(date,top.25) %>% 
+  summarise(n_ads = n()) %>% 
+  ungroup() %>% 
+  group_by(top.25) %>% 
+  mutate(total_ads = cumsum(n_ads), day_in_year = yday(date), year = as.factor(year(date)), month=month(date))
+
+
+
 ## This is annoying but day_in_year does not match due to calenday; ugh.
-aea.20.top25.mrv <- aea.20.tot[aea.20.tot$day_in_year==max(aea.20.tot$day_in_year[aea.20.tot$top.25==T]) & aea.20.tot$top.25==T,
+aea.21.top25.mrv <- aea.21.tot[aea.21.tot$day_in_year==max(aea.21.tot$day_in_year[aea.21.tot$top.25==T]) & aea.21.tot$top.25==T,
                                c("total_ads","day_in_year")]
-aea.20.nottop25.mrv <- aea.20.tot[aea.20.tot$day_in_year==max(aea.20.tot$day_in_year[aea.20.tot$top.25==F]) & aea.20.tot$top.25==F,
+aea.21.nottop25.mrv <- aea.21.tot[aea.21.tot$day_in_year==max(aea.21.tot$day_in_year[aea.21.tot$top.25==F]) & aea.21.tot$top.25==F,
                                   c("total_ads","day_in_year")]
+
 aea.19.top25.mrv <- aea.19.tot[aea.19.tot$top.25==T,]
 aea.19.top25.mrv <- aea.19.top25.mrv[
-  which.min(abs(aea.19.top25.mrv$day_in_year - max(aea.20.tot$day_in_year[aea.20.tot$top.25==T]))), 
+  which.min(abs(aea.19.top25.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.25==T]))), 
   c("total_ads","day_in_year")]
 aea.19.nottop25.mrv <- aea.19.tot[aea.19.tot$top.25==F,]
 aea.19.nottop25.mrv <- aea.19.nottop25.mrv[
-  which.min(abs(aea.19.nottop25.mrv$day_in_year - max(aea.20.tot$day_in_year[aea.20.tot$top.25==F]))), 
+  which.min(abs(aea.19.nottop25.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.25==F]))), 
   c("total_ads","day_in_year")]
 
-down.top25 <- round((aea.20.top25.mrv$total_ads/aea.19.top25.mrv$total_ads)-1,2)
-down.nottop25 <- round((aea.20.nottop25.mrv$total_ads/aea.19.nottop25.mrv$total_ads)-1,2)
+aea.20.top25.mrv <- aea.20.tot[aea.20.tot$top.25==T,]
+aea.20.top25.mrv <- aea.20.top25.mrv[
+  which.min(abs(aea.20.top25.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.25==T]))), 
+  c("total_ads","day_in_year")]
+aea.20.nottop25.mrv <- aea.20.tot[aea.20.tot$top.25==F,]
+aea.20.nottop25.mrv <- aea.20.nottop25.mrv[
+  which.min(abs(aea.20.nottop25.mrv$day_in_year - max(aea.21.tot$day_in_year[aea.21.tot$top.25==F]))), 
+  c("total_ads","day_in_year")]
 
-all_aea <- bind_rows(aea.19.tot, aea.20.tot)
+# down.top25 <- round((aea.20.top25.mrv$total_ads/aea.19.top25.mrv$total_ads)-1,2)
+# down.nottop25 <- round((aea.20.nottop25.mrv$total_ads/aea.19.nottop25.mrv$total_ads)-1,2)
+
+all_aea <- bind_rows(aea.19.tot, aea.20.tot,aea.21.tot)
 all_aea$top_25 <- "top25"
 all_aea$top_25[all_aea$top.25==F] <- "nottop25"
 all_aea$yr_top <- paste0(all_aea$year,"_",all_aea$top_25)
@@ -179,22 +244,24 @@ cbp1 <- c("#999999", "#E69F00", "#56B4E9", "#009E73",
 
 
 gp <- all_aea %>% 
-  filter(month%in% c(8, 9, 10)) %>%
+  filter(month%in% c(8, 9)) %>%
   ggplot() +
   geom_line(aes(x=day_in_year, y=total_ads, colour=year, linetype=top_25))+
   scale_colour_manual(values=cbp1) +
   scale_linetype_manual(values = c(rep("dashed", 1),rep("solid", 1))) +
   theme_bw() +
-  labs(title="US FT Academic Cumulative Number of JOE Ads, 2019 vs. 2020",
+  labs(title="US FT Academic Cumulative Number of JOE Ads, 2019-2021",
        subtitle=paste0(" by REPEC Top 25; Date: ",Sys.Date()),
        x="Day in Year (Aug 1 = 213)",
        y="Cumulative Ads Posted on JOE",
        caption = "Based on John Voorheis") +
   theme(legend.position = "bottom")  +
-  annotate("text", x = 225, y = 375, label = paste0("Top25 down: ",down.top25*100,"pct YTD"), hjust = -0.1) +
-  annotate("text", x = 225, y = 325, label = paste0("NotTop25 down: ",down.nottop25*100,"pct YTD"),hjust = -0.1) +
-  annotate("text", x = 225, y = 275, label = paste0("Top25 Ads: ",aea.20.top25.mrv$total_ads), hjust = -0.2) +
-  annotate("text", x = 225, y = 225, label = paste0("NotTop25 Ads: ",aea.20.nottop25.mrv$total_ads), hjust = -0.18) 
+  annotate("text", x = 225, y = 375-75, label = paste0("Top25 Ads '19: ",aea.19.top25.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 350-75, label = paste0("Top25 Ads '20: ",aea.20.top25.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 325-75, label = paste0("Top25 Ads '21: ",aea.21.top25.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 300-75, label = paste0("Not.Top25 Ads '19: ",aea.19.nottop25.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 275-75, label = paste0("Not.Top25 Ads '20: ",aea.20.nottop25.mrv$total_ads), hjust = -0.1) +
+  annotate("text", x = 225, y = 250-75, label = paste0("Not.Top25 Ads '21: ",aea.21.nottop25.mrv$total_ads), hjust = -0.1)
 gp
 save_plot("joe_us_ft_repec25.pdf", gp)
 save_plot("joe_us_ft_repec25.png", gp)
