@@ -26,14 +26,15 @@ permalink: /research/
 - Updated March 2021!  
 - Presented at 2020 NTA: Changing Behavior with Localized Tax Policy for Low-Income People
 
-**Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
-- Draft available upon request
-
-
 ## Works in Stasis
 
 **What Does An EITC DID Estimate?**  
-- Stalled due to inattention
+- Stalled due to inattention and lack of professional incentives  
+
+**Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
+- Draft available upon request  
+- Stalled due to inattention and lack of professional incentives  
+
 
 ## Research Notes
 

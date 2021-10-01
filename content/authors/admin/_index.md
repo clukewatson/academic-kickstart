@@ -79,3 +79,5 @@ I am interested in tax incidence, housing markets, and local economic performanc
 
 I earned my PhD in Economics from Michigan State University and my BA and MA in Economics from Old Dominion University.
 Since Fall 2018, I have Special Sworn Status for Census RDC research projects.  
+
+Views and opinions expressed on this website do not necessarily reflect those of the FDIC, the United States, nor anyone else.
