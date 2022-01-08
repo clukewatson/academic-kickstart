@@ -12,8 +12,9 @@ permalink: /research/
 
 **Is the Rent Too High? Land Ownership and Monopoly Power**  
 - (joint with Oren Ziv)  
-- Updated March 2021  
+- Updated January 2022
 - Manuscript: [monopoly_watsonziv.pdf](/files/papers/monopoly_watsonziv.pdf)  
+- Presented at 2021 UEA, 2022 AREUEA-ASSA  
 
 **Estimating Both Supply and Demand Elasticities Using Variation in a Single Tax Rate with General Equilibrium Spillovers**  
 - Updated October 2021  
@@ -29,11 +30,11 @@ permalink: /research/
 ## Works in Stasis
 
 **What Does An EITC DID Estimate?**  
-- Stalled due to inattention and lack of professional incentives  
+- Rough draft available, email for a chat about it  
 
 **Who Goes to Work with the EITC: Pro-Work Subsidies and Labor Supply Quality**  
 - Draft available upon request  
-- Stalled due to inattention and lack of professional incentives  
+- Stalled due to inattention  
 
 
 ## Research Notes
