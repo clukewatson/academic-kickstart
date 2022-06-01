@@ -87,23 +87,23 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "watso220@msu.edu"
+email = "chwatson@fdic.gov"
 phone = "757 537 09 91"
 
-# Address
+# Address 
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "486 W. Circle Drive", city = "East Lansing", region = "MI", postcode = "48824", country = "United States", country_code = "US"}
+address = {street = "550 17th Street NW", city = "Washington", region = "DC", postcode = "20429", country = "United States", country_code = "US"}
 
-# Geographic coordinates
+# Geographic coordinates 
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "42.733070", longitude = "-84.478215"}
+coordinates = {latitude = "38.897196224637206", longitude = "-77.04009556392064"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building go downstairs to Office 5L"
+# directions = "Enter Building go downstairs to Office 5L"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Wednesday 09:00 to 10:00", "Friday 09:00 to 10:00"]
+# office_hours = ["Wednesday 09:00 to 10:00", "Friday 09:00 to 10:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com"
