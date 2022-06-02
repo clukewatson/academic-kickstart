@@ -12,9 +12,9 @@ permalink: /research/
 
 **Is the Rent Too High? Land Ownership and Monopoly Power**  
 - (joint with Oren Ziv)  
-- Updated January 2022
-- Manuscript: [monopoly_watsonziv.pdf](/files/papers/monopoly_watsonziv.pdf)  
-- Presented at 2021 UEA, 2022 AREUEA-ASSA  
+- Manuscript (Jan 2022): [monopoly_watsonziv.pdf](/files/papers/monopoly_watsonziv.pdf)  
+- Slides (May 2022): [monopoly_watsonziv_jun2022_slides.pdf](/files/papers/monopoly_watsonziv_jun2022_slides.pdf)  
+- Presented at 2021 UEA, 2022 AREUEA-ASSA, 2022 AREUEA  
 
 **Estimating Both Supply and Demand Elasticities Using Variation in a Single Tax Rate with General Equilibrium Spillovers**  
 - Updated October 2021  
@@ -24,7 +24,7 @@ permalink: /research/
 
 **The Local Effects of State EITC Expansions**  
 - Manuscript: [clw_stateborder_EITC.pdf](/files/papers/clw_stateborder_EITC.pdf)   
-- Updated March 2021!  
+- Updated March 2021  
 - Presented at 2020 NTA: Changing Behavior with Localized Tax Policy for Low-Income People
 
 ## Works in Stasis
