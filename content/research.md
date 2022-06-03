@@ -24,7 +24,6 @@ permalink: /research/
 
 **The Local Effects of State EITC Expansions**  
 - Manuscript: [clw_stateborder_EITC.pdf](/files/papers/clw_stateborder_EITC.pdf)   
-- Updated March 2021  
 - Presented at 2020 NTA: Changing Behavior with Localized Tax Policy for Low-Income People
 
 ## Works in Stasis
