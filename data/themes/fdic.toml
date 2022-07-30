@@ -5,12 +5,12 @@ name = "fdic"
 light = true
 
 # Primary
-primary = "rgb(32, 80, 158)"
+primary = "rgb(0,50,86)"
 
 # Menu
-menu_primary = "rgb(32, 80, 158)"
+menu_primary = "rgb(0,50,86)"
 menu_text = "#fff"
-menu_text_active = "rgb(0, 50, 86)"
+menu_text_active = "rgb(127, 112, 68)"
 menu_title = "#fff"
 
 # Home sections
