@@ -2,7 +2,7 @@
 name = "fdicfont"
 
 # Optional Google font URL
-google_fonts = "Source+Sans+Pro:wght@400;700"
+google_fonts = "Source+Sans+Pro"
 
 # Font families
 heading_font = "Source+Sans+Pro"
