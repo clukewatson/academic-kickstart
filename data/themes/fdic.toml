@@ -1,0 +1,18 @@
+# Theme metadata
+name = "fdic"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "rgb(32, 80, 158)"
+
+# Menu
+menu_primary = "rgb(32, 80, 158)"
+menu_text = "#fff"
+menu_text_active = "rgb(0, 50, 86)"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
